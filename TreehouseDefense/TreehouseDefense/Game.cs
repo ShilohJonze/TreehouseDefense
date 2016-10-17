@@ -7,9 +7,11 @@ namespace TreehouseDefense
 {
     class Game
     {
-        public void Main()
+        public static void Main()
         {
-            Tower tower = new Tower();
+            Map map = new TreehouseDefense.Map(8, 5);
+       
+            int area = map.Width * map.Height;
         }
     }
 }
