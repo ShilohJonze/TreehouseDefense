@@ -23,8 +23,8 @@ namespace TreehouseDefense
                     new MapLocation(5, 2, map),
                     new MapLocation(6, 2, map),
                     new MapLocation(7, 2, map)
-                }
-                };
+
+                });
 
             Invader[] invaders =
             {
