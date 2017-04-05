@@ -42,7 +42,7 @@ namespace TreehouseDefense
 
             Level level = new TreehouseDefense.Level(invaders)
             {
-                Towers = towers
+                towers = towers
         };
 
             bool playerWon = level.Play();
