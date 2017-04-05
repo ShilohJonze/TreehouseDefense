@@ -26,7 +26,7 @@ namespace TreehouseDefense
                     tower.FireOnInvaders(_invaders):
                 }
 
-                //Count and move the invaders that are still active.
+                //Count and move the invaders that are still being active.
                 remainingInvaders = 0;
                 foreach (Invader invader in _invaders)
                 {
