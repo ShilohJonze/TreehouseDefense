@@ -19,3 +19,5 @@
         }
     }
 }
+
+//description of MapLocation
